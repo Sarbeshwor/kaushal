@@ -3226,6 +3226,14 @@ input, select, textarea {
 		z-index: 1;
 		overflow: hidden;
 	}
+	@media only screen and(max-width:1200px){
+		
+		#wrapper > .bg {
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/dr.jpg");
+
+		}
+
+	}
 
 		#wrapper > .bg {
 			position: absolute;
@@ -3234,7 +3242,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/dr.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3277,6 +3285,8 @@ input, select, textarea {
 
 			#wrapper > .bg {
 				background-size: auto,								auto,														auto 175%;
+				background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+
 			}
 
 		}
